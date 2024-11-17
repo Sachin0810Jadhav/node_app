@@ -10,5 +10,11 @@ const isLegal = (user: User ): boolean =>{
     return false;
 }
 
+const printFirstName= (user :User):void=> {
+    console.log(user.firstname)
+}
+
+printFirstName({firstname:"sachin",age:20})
+
 
 console.log(isLegal({firstname:"sachin",age:20}));
